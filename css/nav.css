@@ -15,7 +15,7 @@ html {
     overflow: auto; 
 }
 
-.topnav a {
+.left a{
     float: left;
     display: block;
     color: whitesmoke;
@@ -25,6 +25,21 @@ html {
     text-transform: capitalize;
     font-size: 16px;
 }
+
+.right a{
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: darkcyan;
+
+}
+
+
 
 .topnav a.hover, .active {
     background-color: darkcyan;
