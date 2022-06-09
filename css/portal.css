@@ -27,6 +27,7 @@ h1 {
    
 }
 
+
 .opener p::first-letter{
     color: rgb(152, 181, 189);
     font-size: 20px;
@@ -41,7 +42,7 @@ p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
 }
 
-h2,h3 {
+h2 {
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
@@ -52,6 +53,40 @@ a {
     text-decoration: none;
 }
 
+.skills{
+    width: 48%;
+    float: right;
+   
+    text-align: center;
+    
+}
+
+.skills h3{
+    text-align: center;
+
+}
+
+.skills ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.experience{
+    width: 48%;
+    float: left;
+}
+
+.experience h4 span{
+    
+    margin-left: 15em;
+}
+/*
+.split{
+    height: 500px;
+    border-left: 5px solid black ;
+    clear: left;
+}
+*/
 a:hover {
     color: whitesmoke;
     background-color: darkcyan;
@@ -62,6 +97,12 @@ footer {
     clear: both;
     text-align: center;
     padding: 1em;
+}
+
+.resume{
+    width: 75%;
+    float: left;
+    
 }
 
 .right-section{
@@ -102,7 +143,7 @@ footer {
         margin-top: 2em;
 
     }
-
+   
 
     
 
