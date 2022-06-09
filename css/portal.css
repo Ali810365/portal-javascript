@@ -56,14 +56,13 @@ a {
 .skills{
     width: 48%;
     float: right;
-   
     text-align: center;
     
 }
 
 .skills h3{
     text-align: center;
-
+    font-weight: normal
 }
 
 .skills ul{
@@ -74,19 +73,24 @@ a {
 .experience{
     width: 48%;
     float: left;
+    
 }
 
 .experience h4 span{
     
     margin-left: 15em;
 }
-/*
-.split{
-    height: 500px;
-    border-left: 5px solid black ;
-    clear: left;
+h3, h4{
+    font-weight: normal;
 }
-*/
+
+.split{
+    height: 450px;
+    border-left: 5px dotted rgb(152, 181, 189);
+    float: left;
+    margin-left: 2em;
+}
+
 a:hover {
     color: whitesmoke;
     background-color: darkcyan;
