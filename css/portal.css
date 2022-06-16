@@ -147,7 +147,23 @@ footer {
         margin-top: 2em;
 
     }
+
+    .media {
+       width: 100%;
+       margin: auto;
+       text-align: center;
+
+    }
+
+    .video{
+        margin: auto;
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
    
+    
 
     
 
