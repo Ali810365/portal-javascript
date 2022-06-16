@@ -8,6 +8,7 @@ html {
     font-family: 'Macondo', cursive;
     font-size: 0.95em;
     line-height: 1.5em;
+    overflow: scroll;
 }
 
 ::selection {
