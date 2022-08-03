@@ -1,4 +1,5 @@
 /* Global rules */
+
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 html {
@@ -12,26 +13,69 @@ html {
 .topnav {
     margin: auto;
     background-color: rgb(95, 95, 95);
-    overflow: auto; 
+    overflow: auto;
 }
 
-.left a{
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdownItems {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdownItems a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdownItems {
+    display: block;
+}
+
+.dropdownBtn {
+    padding: 18px 12px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: inherit;
+    font-family: inherit;
+    display: block;
+    margin: 0;
+}
+
+.dropdownBtn:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.left >a {
     float: left;
     display: block;
     color: whitesmoke;
     text-align: center;
-    padding: 12px 12px;
+    padding: 16px 12px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
 }
 
-.right a{
+.right>a {
     float: right;
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 12px 12px;
+    padding: 16px 12px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 30px;
@@ -41,7 +85,8 @@ html {
 
 
 
-.topnav a.hover, .active {
+.topnav a.hover,
+.active {
     background-color: darkcyan;
 }
 
@@ -55,22 +100,22 @@ html {
     .topnav a:not(:first-child) {
         display: none;
     }
-    
+
     .topnav a.icon {
         float: right;
         display: block;
     }
-    
+
     .topnav.responsive {
         position: relative;
     }
-    
+
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
-    
+
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
